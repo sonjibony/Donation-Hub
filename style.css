@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Nunito:wght@700&display=swap');
+*{
+   margin:0 ;
+   font-family: 'Nunito', sans-serif;
+}
+#first-section{
+    background-image: url('./images/donation13.jpg');
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+
+    
+}
+.header-area{
+    color:white ;
+    padding-top: 300px;
+}
+h1{
+    font-size: 90px;
+}
+p{
+    font-size:35px;
+}
+button{
+    padding: 25px 50px;
+    font-size: 25px;
+    color: white;
+    background-color:tomato ;
+    border: 0px;
+    border-radius: 10px;
+
+}
+
