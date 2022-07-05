@@ -80,6 +80,43 @@ h3{
     text-align: center;
     
 }
+#third-section{
+    display: flex;
+    justify-content: center;
+    padding-bottom:200px ;
+    
+}
+.card{
+    width: 300px;
+    height:300px ;
+    padding: 40px;
+    border-radius:10px ;
+    margin-right: 50px;
+    background-color: aqua;
+    }
+    
+        .card-title{
+        padding-top: 40px;
+        font-size:25px ;
+        
+    }
+    .card-des{
+        font-size:15px ;
+        padding-top: 15px;
+        
+    
+    }
+    #card-color1{
+        background-color: rgba(161, 211, 231, 0.322);
+        
+    }#card-color2{
+        background-color: rgba(233, 17, 53, 0.151);
+        
+    }
+    #card-color3{
+        background-color: rgba(255, 99, 71, 0.397);
+        
+    }
 
 
 
