@@ -1,127 +1,153 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Nunito:wght@700&display=swap');
-*{
-   margin:0 ;
-   font-family: 'Nunito', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Nunito:wght@700&display=swap");
+* {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
 }
-#first-section{
-    background-image: url('./images/donation13.jpg');
-    background-size: cover;
-    height: 100vh;
-    text-align: center;
-
-    
+#first-section {
+  background-image: url("./images/donation13.jpg");
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
 }
-.header-area{
-    color:white ;
-    padding-top: 300px;
-    
-}h1{
-    font-size: 90px;
+.header-area {
+  color: white;
+  padding-top: 300px;
 }
-p{
-    font-size:35px;
-    
+h1 {
+  font-size: 90px;
+}
+p {
+  font-size: 35px;
 }
 
-button{
-    padding: 25px 50px;
-    font-size: 25px;
-    color: white;
-    background-color:tomato ;
-    border: 0px;
-    border-radius: 10px;
-    
-
-    
-    
-
+button {
+  padding: 25px 50px;
+  font-size: 25px;
+  color: white;
+  background-color: tomato;
+  border: 0px;
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
-span{
-    
-    text-align: center;
-    font-size:50px ;
+span {
+  text-align: center;
+  font-size: 50px;
 }
-.donation-text{
-padding-top: 170px;
-    font-size:25px ;
-    text-align: center;
+.text-style {
+  padding-top: 170px;
+  font-size: 25px;
+  text-align: center;
 }
-#second-section{
-    display: flex;
-    justify-content: center;
-    font-size: 25px;
-    padding: 50px;
-
-    
+#second-section {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  padding: 50px;
 }
-.money-box{
-    padding: 30px;
-    background-color: whitesmoke;
-    margin-right:15px ;
+.money-box {
+  padding: 30px;
+  background-color: whitesmoke;
+  margin-right: 15px;
 }
 
-#box-color{
-    background-color:rgba(255, 99, 71, 0.493);
-    border:3px solid tomato;
-    border-radius: 5px;
-    color:tomato ;
-
+#box-color {
+  background-color: rgba(255, 99, 71, 0.493);
+  border: 3px solid tomato;
+  border-radius: 5px;
+  color: tomato;
+}
+.donation {
+  background-color: white;
 }
 
-h3{
-    
-    color: gray;
-    padding: 15px;
-    margin-left: 400px;
-    margin-right: 400px;
-    border-bottom:2px solid gray ;
+.donation-input {
+  color: black;
+  border: none;
+  font-size: 20px;
+  border-bottom: 3px solid grey;
+  padding: 10px 300px;
 }
-.second-button{
-    text-align: center;
-    
+.donation-button {
+  text-align: center;
 }
-#third-section{
-    display: flex;
-    justify-content: center;
-    padding-bottom:200px ;
-    
+
+#third-section {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 200px;
+  padding-top: 150px;
 }
-.card{
-    width: 300px;
-    height:300px ;
-    padding: 40px;
-    border-radius:10px ;
-    margin-right: 50px;
-    background-color: aqua;
-    }
-    
-        .card-title{
-        padding-top: 40px;
-        font-size:25px ;
-        
-    }
-    .card-des{
-        font-size:15px ;
-        padding-top: 15px;
-        
-    
-    }
-    #card-color1{
-        background-color: rgba(161, 211, 231, 0.322);
-        
-    }#card-color2{
-        background-color: rgba(233, 17, 53, 0.151);
-        
-    }
-    #card-color3{
-        background-color: rgba(255, 99, 71, 0.397);
-        
-    }
+.card {
+  width: 300px;
+  height: 300px;
+  padding: 40px;
+  border-radius: 10px;
+  margin-right: 50px;
+  background-color: aqua;
+}
 
+.card-title {
+  padding-top: 40px;
+  font-size: 25px;
+}
+.card-des {
+  font-size: 15px;
+  padding-top: 15px;
+}
+#card-color1 {
+  background-color: rgba(161, 211, 231, 0.322);
+}
+#card-color2 {
+  background-color: rgba(233, 17, 53, 0.151);
+}
+#card-color3 {
+  background-color: rgba(255, 99, 71, 0.397);
+}
+#extra-section {
+  display: flex;
+  justify-content: center;
+}
+.extra-title {
+  font-size: 100px;
+  text-align: center;
+}
+.extra-body {
+  height: 300px;
+  width: 300px;
+  margin-right: 20px;
+  font-size: 25px;
+  border-left: 7px solid tomato;
+  padding: 50px 20px 20px 20px;
+}
+.quote {
+  text-align: center;
+}
 
+label {
+  display: flex;
+  justify-content: center;
+  background-color: beige;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+.mail-input {
+  padding: 25px 50px;
+  font-size: 25px;
 
-    
-    
-
-
-
+  margin-top: 100px;
+  border: 0px;
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
+footer {
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  padding: 50px;
+  text-align: center;
+  margin-top: 200px;
+}
+h2 {
+  color: tomato;
+}
